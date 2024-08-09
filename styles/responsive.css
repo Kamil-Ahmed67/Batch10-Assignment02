@@ -1,0 +1,14 @@
+@media screen and (max-width:576px) {
+    .hamburger-menu{
+        display: block;
+    }
+    .navbar-main > .nav-button-container{
+        display: none;
+    }
+    .navbar-main{
+       
+        
+        flex-direction: row;
+        align-items: center;
+   }
+} 
