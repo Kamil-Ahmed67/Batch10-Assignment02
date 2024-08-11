@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 .inter{
     font-family: "Inter", sans-serif;
    
+}
+.miama{
+    font-family: 'Miama', sans-serif;  
+    font-weight: 400;  
+    font-size: 7rem;                                            
 }
 *{
     margin:0;
@@ -9,9 +15,140 @@
     box-sizing: border-box;
 }
 /* Shared Styles */
+
+.primary-btn{
+    background: rgb(230, 83, 60);
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 224px;
+    border-radius:42px;
+    margin:0 14px;
+    padding:16px 40px 16px 40px;
+    border:none;
+}
 .display-flex{
     display:flex;
 }
+.paragraph{
+    color:rgba(255, 255, 255, 0.65);
+    font-size: 0.87rem;
+}
+/* banner styles starts */
+.glass-paragraph{
+    color:rgba(255, 255, 255, 0.65);
+    font-size: 0.87rem;
+}
+.glass2-container{
+    padding:10px;
+    margin-left: 24px;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.g2-title{
+color:white;
+font-size:1.5rem;
+font-weight: 900;
+}
+.round-box{
+width: 40px;
+height: 40px;
+background-color: rgb(230, 83, 60);
+border-radius: 50%;
+}
+.g1-title{
+    color:white;
+    font-size:2.5rem;
+    font-weight: 900;
+}
+.glass1-content{
+    padding:10px;
+    margin-left: 24px;
+}
+/* .glass-container{
+      height: 96px;
+      position:relative;
+      background: linear-gradient(90deg,
+      rgba(2,0,36,1)0%,
+      rgba(95,9,21,1)50%,
+      rgba(239,0,255,1)100%,
+      );
+      display: flex;
+      justify-content: center;
+      align-items: center;
+} */
+.banner-child-2{
+    border:2px solid red;
+    margin:0 auto;
+    position:relative;
+    /* background: linear-gradient(90deg,
+      rgba(2,0,36,1)0%,
+      rgba(95,9,21,1)50%,
+      rgba(239,0,255,1)100%,
+    ); */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.glass-2{
+    position: absolute;
+    height:6rem;
+    width:12.84rem;
+    background: rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    right:270px;
+    top:70%;
+}
+.glass-1{
+      position: absolute;
+      height:6rem;
+      width:12.84rem;
+      background: rgba(48, 48, 48, 0.54);
+      border-radius: 12px;
+      backdrop-filter: blur(4px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      left:230px;
+      top:20%;
+}
+.download-btn{
+    background:black;
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 224px;
+    border-radius:42px;
+    margin:0 14px;
+    padding:16px 40px 16px 40px;
+    border:1px solid white;
+    margin-left:14px;
+}
+.banner-paragraph{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    margin-bottom: 28px;
+}
+.banner-title{
+    font-size: 4.87rem;
+    color: white;
+    row-gap: 1px;
+    margin-bottom: 28px;
+    line-height: 1;
+}
+.banner-child-1{
+    border:2px solid red;
+    margin:0 auto;
+}
+.banner-parent{
+    border:2px solid red;
+    display: flex;
+    margin:0 auto;
+    align-items: center;
+    background-color: black;
+}
+/* banner styles ends */
 /* navigation styles starts */
 .nav-wrapper{
     background-color:black;

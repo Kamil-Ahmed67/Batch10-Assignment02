@@ -11,4 +11,64 @@
         flex-direction: row;
         align-items: center;
    }
+   .glass2-container{
+    padding:7px;
+    margin-left:15px;
+    }
+   .glass2-container>.round-box{
+    width: 30.24px;
+    height: 30.24px;
+   }
+   .glass2-content>.glass-paragraph{
+    font-size: 0.6rem;
+   }
+   .glass2-content>.g2-title{
+    font-size: 1.13rem;
+   }
+   .banner-child-2>.glass-2{
+    right:270px;
+    top:50%;
+    width: 155.74px;
+    height: 72.58px;
+   }
+   .glass1-content>.glass-paragraph{
+    font-size: 0.6rem;
+   }
+   .glass1-content>.g1-title{
+    font-size: 1.5rem;
+   }
+   .banner-child-2>.glass-1{
+    left:250px;
+    top:10%;
+    width: 145.91px;
+    height: 74.09px;
+   }
+   .banner-parent{
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 5px; */
+   }
+   .banner-buttons{
+    display: flex;
+   }
+   .banner-buttons>.primary-btn,.download-btn{
+    width: 169px;
+    height: 54px;
+    margin-bottom: 48px;
+    font-size: 0.8rem;
+   }
+   .banner-paragraph{
+    font-size: 0.95rem;
+   }
+   .banner-child-1>.miama{
+    font-size:3.7rem;
+   }
+   .banner-child-1>.banner-title{
+    font-size:3.5rem;
+    line-height:1;
+   }
+   .banner-child-1{
+    padding:10px;
+   }
 } 
