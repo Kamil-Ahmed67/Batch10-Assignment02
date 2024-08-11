@@ -79,7 +79,7 @@ border-radius: 50%;
       align-items: center;
 } */
 .banner-child-2{
-    border:2px solid red;
+    /* border:2px solid red; */
     margin:0 auto;
     position:relative;
     /* background: linear-gradient(90deg,
@@ -97,7 +97,7 @@ border-radius: 50%;
     width:12.84rem;
     background: rgba(48, 48, 48, 0.54);
     border-radius: 12px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(3px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     right:270px;
     top:70%;
@@ -108,7 +108,7 @@ border-radius: 50%;
       width:12.84rem;
       background: rgba(48, 48, 48, 0.54);
       border-radius: 12px;
-      backdrop-filter: blur(4px);
+      backdrop-filter: blur(3px);
       border: 1px solid rgba(255, 255, 255, 0.1);
       left:230px;
       top:20%;
@@ -138,11 +138,11 @@ border-radius: 50%;
     line-height: 1;
 }
 .banner-child-1{
-    border:2px solid red;
+    /* border:2px solid red; */
     margin:0 auto;
 }
 .banner-parent{
-    border:2px solid red;
+    /* border:2px solid red; */
     display: flex;
     margin:0 auto;
     align-items: center;
