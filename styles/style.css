@@ -55,13 +55,10 @@ background-color: black;
 }
 /* ******************MAIN PARTS STARTS******************* */
  /* Habit Style Starts */
- .habit-wrapper{
-    margin-top: 100px;
- }
  .habit img {
     max-width: 100%;
-    align-items: center;
     border-radius: 50%;
+    display: block;
  }
  .habit{
      display: flex;
