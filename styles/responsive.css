@@ -13,6 +13,24 @@
         align-items: center;
    }
    /* nav responsive starts */
+   /* Habit Responsive Starts */
+   .habits>.paragraph{
+    margin-bottom: 58px;
+   }
+   .habit{
+    margin-bottom:40px;
+   }
+   .habits>.titles{
+    margin-top:5px;
+    font-size: 2.5rem;
+   }
+   .habits-container{
+     display: flex;
+     flex-direction:column;
+     align-items: center;
+     margin:0 auto;
+   }
+   /* Habit Responsive Ends */
    /* banner responsive starts */
    .glass2-container{
     padding:7px;
