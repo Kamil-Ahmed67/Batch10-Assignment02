@@ -14,7 +14,34 @@
    }
    /* nav responsive starts */
    /* Running Responsive Starts */
-
+   .running{
+    padding:0 20px;
+    
+   }
+   .running-child-1{
+    margin:0 auto;
+    padding:20px
+   }
+   .running-child-1 h3{
+    font-size: 2.4rem;
+   }
+  .primary-btn-2{
+    width: 100%;
+    align-self: center;
+    cursor: pointer;
+  }
+   .running-child-2 img{
+    width:100%;
+   }
+   .running-child-1, .running-child-2{
+    width:100%;
+    margin-bottom: 20px;
+   }
+   .running>.running-container{
+    width: 100%;
+    flex-direction:column;
+    padding:20px;
+   }
    /* Running Responsive Ends */
    /* Habit Responsive Starts */
    .habits>.paragraph{

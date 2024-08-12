@@ -34,16 +34,6 @@ background-color: black;
     padding:16px 40px 16px 40px;
     border:none;
 }
-.primary-btn-2{
-    background: rgb(230, 83, 60);
-    color:white;
-    font-size: 1.2rem;
-    font-weight: 600;
-    width: 224px;
-    border-radius:42px;
-    padding:16px 40px 16px 40px;
-    border:none;
-}
 .display-flex{
     display:flex;
 }
@@ -91,6 +81,16 @@ flex-direction: column;
     padding: 30px 32px 29px 54px;
     justify-content: space-between;
     margin-top: 100px;
+}
+.primary-btn-2{
+    background: rgb(230, 83, 60);
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 224px;
+    border-radius:42px;
+    padding:16px 40px 16px 40px;
+    border:none;
 }
 /* Running Styles Ends */
  /* Habit Style Starts */
