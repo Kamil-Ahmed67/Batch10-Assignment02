@@ -145,6 +145,7 @@ caption{
 .bmi-container{
     /* border: 2px solid red; */
     background-color: rgb(34, 34, 34);
+    width: 100%;
 }
 .bmi-title-container{
     /* border:1px solid white; */
