@@ -126,5 +126,8 @@
    .banner-child-1{
     padding:10px;
    }
+   .banner-child-2 img{
+      width: 100%;
+   }
    /* banner responsive starts */
 } 

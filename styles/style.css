@@ -55,6 +55,103 @@ background-color: black;
     margin-top: 100px;
 }
 /* ******************MAIN PARTS STARTS******************* */
+/* BMI Calculator Starts */
+#select-box{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.001);
+    border: none;
+    color:rgba(255, 255, 255, 0.65);
+    font-size: rem;
+    font-weight: 400;
+}
+#box-5{
+    grid-column: span 2;
+}
+.input-grid-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-between;
+        gap:10px;
+        padding: 10px;
+        margin-right:190px;
+        
+}
+.item{
+    /* border:1px solid white; */
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    max-width:100%;
+    padding: 10px;
+}
+.bmi-content{
+    /* border:1px solid white; */
+    /* margin: 88px auto; */
+    width:70%; 
+    padding:10px;
+}
+.bmi-child-2 button{
+    margin-top:34px;
+}
+/* .bmi-child-2 p{
+    margin-bottom: 5px;
+} */
+.bmi-child-2 h3{
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin:52px 0px 14px 0px;  
+}
+.bmi-child-2{
+    /* border:1px solid blue; */
+    width:50%;
+}
+th{
+    font-size: 1rem;
+   font-weight: 500;
+   color: white;
+}
+th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 5px;
+}
+table{
+    margin:0 auto;
+    border-collapse: collapse;
+    width:50%;
+    margin-bottom: 133px;
+    height: 220px;
+}
+caption{
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-align: left;
+    margin: 55px 0 50px 0;
+    color: white;
+}
+.bmi-child-1 h3{
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-align: left;
+    margin: 55px 0 50px 0;
+    color: white;
+    
+}
+.bmi-child-1{
+    /* border:1px solid white; */
+    width:50%;
+    margin:0 auto;
+    align-items: center;
+}
+.bmi-container{
+    /* border: 2px solid red; */
+    background-color: rgb(34, 34, 34);
+}
+.bmi-title-container{
+    /* border:1px solid white; */
+    margin: 88px auto;
+    width:40%; 
+}
+/* BMI Calculator Ends */
 /* Running Styles Starts */
 
 .running-child-1{
