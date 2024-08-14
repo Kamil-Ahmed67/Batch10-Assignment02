@@ -170,13 +170,22 @@
    }
    /* Habit Responsive Ends */
    /* banner responsive starts */
+   .ban-img{
+    width: 100%;
+}
+   .glass-1{
+    width: 100px;
+   }
+   .glass-2{
+    width: 100px;
+   }
    .glass2-container{
     padding:7px;
     margin-left:15px;
     }
    .glass2-container>.round-box{
-    width: 30.24px;
-    height: 30.24px;
+    width: 35px;
+    height: 35px;
    }
    .glass2-content>.glass-paragraph{
     font-size: 0.6rem;
