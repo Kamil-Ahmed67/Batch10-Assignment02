@@ -12,8 +12,28 @@
         flex-direction: row;
         align-items: center;
    }
-   /* nav responsive starts */
-   /* BMI Responsive Starts*/
+   /* nav responsive ends */
+   /* Team Responsive Starts */
+   .team-image-section{
+    padding: 0 20px;
+   }
+   .team-box{
+    width: 313px;
+    height: 272px;
+    margin-bottom: 20px;
+   }
+   .team-grid{
+    grid-template-columns: repeat(1,1fr);
+   }
+   .team-box-container{
+    width: 100%;
+    margin: 0 auto;
+   }
+   .team-title{
+    width: 100%;
+   }
+   /* Team Responsive Starts */
+   /* BMI Responsive Ends*/
    .input-grid-container{
     margin-right: 0;
    }
@@ -30,6 +50,7 @@
    .bmi-child-1{
     width: 100%;
     padding:0 20px;
+    margin-bottom:-150px;
    }
    .bmi-container{
     flex-direction: column;

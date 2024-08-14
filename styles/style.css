@@ -66,47 +66,29 @@ background-color: black;
     left:15px;
     padding: 5px;
 }
-#tbox-6{
-    background-image:url(../images/trainer6.png);
+#tbox-6, #tbox-5, #tbox-4, #tbox-3, #tbox-2, #tbox-1 {
     background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.2);
     background-position: center;
     background-repeat: no-repeat;
+}
+#tbox-6{
+    background-image:url(../images/trainer6.png);
 }
 #tbox-5{
     background-image:url(../images/trainer5.png);
-    background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.2);
-    background-position: center;
-    background-repeat: no-repeat;
 }
 #tbox-4{
     background-image:url(../images/trainer4.png);
-    background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.2);
-    background-position: center;
-    background-repeat: no-repeat;
 }
 #tbox-3{
     background-image:url(../images/trainer3.png);
-    background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.2);
-    background-position: center;
-    background-repeat: no-repeat;
 }
 #tbox-2{
     background-image:url(../images/trainer2.png);
-    background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.2);
-    background-position: center;
-    background-repeat: no-repeat;
 }
 #tbox-1{
     background-image:url(../images/trainer1.png);
-    background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.2);
-    background-position: center;
-    background-repeat: no-repeat;
 }
 .team-box{
     border-radius: 8px;
@@ -117,6 +99,7 @@ background-color: black;
     margin: 0 auto;
     position: relative; 
     /* position:relative for placing the element inside team-box */
+    overflow: hidden;
 }
 .team-grid{
     display: grid;
@@ -270,6 +253,9 @@ flex-direction: column;
     border-radius:42px;
     padding:16px 40px 16px 40px;
     border:none;
+}
+.bmi-button{
+    margin-bottom: 43px;
 }
 /* Running Styles Ends */
  /* Habit Style Starts */
