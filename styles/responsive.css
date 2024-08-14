@@ -39,32 +39,6 @@
 .footer-table-container {
     width: 100%;
 }
-   /* .footer-child-1 {
-    flex-direction: column;
-}
-
-.footer-brand,
-.footer-table-container {
-    width: 100%;
-}
-
-.footer-table th,
-.footer-table td {
-    display: block;
-    width: 100%;
-    text-align: center;
-}
-
-.footer-table tr {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-brand h3 {
-    font-size: 2.5rem;
-}
- */
 
    /* Footer Responsive */
    /* Team Responsive Starts */
@@ -160,8 +134,6 @@
    }
    .habits{
     width: 390px;
-    /* display: flex;
-    flex-direction: column; */
    }
    .habits-container{
     display: flex;
@@ -170,15 +142,7 @@
    }
    /* Habit Responsive Ends */
    /* banner responsive starts */
-   .ban-img{
-    width: 100%;
-}
-   .glass-1{
-    width: 100px;
-   }
-   .glass-2{
-    width: 100px;
-   }
+
    .glass2-container{
     padding:7px;
     margin-left:15px;
