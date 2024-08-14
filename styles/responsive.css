@@ -14,12 +14,15 @@
    }
    /* nav responsive ends */
    /* Team Responsive Starts */
+   .team-box-content h4{
+    font-size: 2rem;
+}
    .team-image-section{
     padding: 0 20px;
    }
    .team-box{
-    width: 313px;
-    height: 272px;
+    width: 100%;
+    height:100%;
     margin-bottom: 20px;
    }
    .team-grid{
