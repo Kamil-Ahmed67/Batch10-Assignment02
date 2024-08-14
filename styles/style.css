@@ -55,6 +55,87 @@ background-color: black;
     margin-top: 100px;
 }
 /* ******************MAIN PARTS STARTS******************* */
+/* Team Styles Starts */
+.team-box-content h4{
+       font-size: 1.2rem;
+       color: white;
+}
+.team-box-content{
+    position: absolute;
+    bottom: 10px;
+    left:15px;
+    padding: 5px;
+}
+#tbox-6{
+    background-image:url(../images/trainer6.png);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#tbox-5{
+    background-image:url(../images/trainer5.png);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#tbox-4{
+    background-image:url(../images/trainer4.png);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#tbox-3{
+    background-image:url(../images/trainer3.png);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#tbox-2{
+    background-image:url(../images/trainer2.png);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#tbox-1{
+    background-image:url(../images/trainer1.png);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.team-box{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 326.67px;
+    height: 272px;
+    padding: 10px;
+    margin: 0 auto;
+    position: relative; 
+    /* position:relative for placing the element inside team-box */
+}
+.team-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     gap: 15px;
+}
+.team-box-container{
+    /* border: 1px solid white; */
+    margin: 88px auto;
+    width:70%; 
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+}
+.team-title{
+    margin: 88px auto;
+    width:40%; 
+}
+/* Team Styles Ends */
 /* BMI Calculator Starts */
 #select-box{
     width: 100%;
